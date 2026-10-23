@@ -3,6 +3,7 @@
 <div align="center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/iamgyp/esp32-antgravity?color=blue&logo=github)](https://github.com/iamgyp/esp32-antgravity/releases/latest)
 [![ESP32-S3](https://img.shields.io/badge/Hardware-ESP32--S3-red.svg)](https://www.espressif.com/)
 [![PlatformIO](https://img.shields.io/badge/Firmware-PlatformIO-orange.svg)](https://platformio.org/)
 [![GUI-PySide6](https://img.shields.io/badge/Client-PySide6-green.svg)](https://www.qt.io/)
@@ -66,10 +67,14 @@
 
 ## 🚀 快速开始
 
-### 方式一：开箱即用（预编译固件与客户端）
+### 方式一：开箱即用（推荐）
+
+直接前往 [GitHub Releases](https://github.com/iamgyp/esp32-antgravity/releases/latest) 下载打包好的程序与固件：
+- 📦 **[下载 Windows 客户端 (`AntigravityBuddy-Windows-x64.zip`)](https://github.com/iamgyp/esp32-antgravity/releases/download/v1.0.0/AntigravityBuddy-Windows-x64.zip)**
+- ⚡ **[下载 ESP32-S3 预编译固件包 (`esp32-s3-buddy-firmware-v1.0.0.zip`)](https://github.com/iamgyp/esp32-antgravity/releases/download/v1.0.0/esp32-s3-buddy-firmware-v1.0.0.zip)**
 
 #### 1. 烧录 ESP32-S3 固件
-下载 Releases 中的固件压缩包解压后：
+解压固件包后：
 - **Windows 用户**：双击运行 `flash.bat`（默认 COM3，或在命令行传入指定端口：`flash.bat COM5`）。
 - **Linux / macOS 用户**：
   ```bash
@@ -78,7 +83,7 @@
   ```
 
 #### 2. 运行 Windows 客户端
-下载 Releases 中的 **`AntigravityBuddy.exe`**：
+解压并运行 **`AntigravityBuddy.exe`**：
 1. 双击运行即可打开桌面看板，自动开始扫描并连接名为 `Antigravity-Buddy` 的 ESP32 设备。
 2. 勾选界面左下角的「**开机自动启动**」，下次开机将自动在后台托盘静默运行。
 3. 点击右上角关闭窗口（`✕`）即自动隐藏到托盘，后台同步不中断。
