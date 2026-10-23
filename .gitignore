@@ -1,0 +1,30 @@
+# PlatformIO
+firmware/.pio/
+.pio/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Runtime dynamic caches & logs
+*.log
+*.json.tmp
+quota.json
+weather.json
+touch_events.log
+buddy_app.log
+buddy_service.log
+nul
+
+# Windows PyInstaller build artifacts
+build/
+dist/
+*.spec
+*.zip
+capture_win.py
+
+# OS artifacts
+.DS_Store
+Thumbs.db
